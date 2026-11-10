@@ -1,0 +1,13 @@
+{
+  "name": "minimi-chat-agent",
+  "version": "1.0.0",
+  "description": "A chat agent with one tool - web search - that answers fast, gets things right, and remembers what you asked and when.",
+  "type": "module",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
